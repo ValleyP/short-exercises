@@ -10,7 +10,7 @@ padding: 0;
     --border-color: rebeccapurple;
     --cite-color:rebeccapurple;
     }
-    
+
     html{
         background-color:var(--background-color);
     }
@@ -28,6 +28,7 @@ width:90%;
 align-items: center;
 justify-content: center;
 border: double var(--border-color);
+display: flex;
 & h1{
     font-size: 150%;
     color: rebeccapurple;
