@@ -17,7 +17,7 @@ padding: 0;
     
 main{
 
-padding: 4em;
+padding: 2em;
 
 }
 
@@ -27,8 +27,8 @@ body {
 width:90%;
 align-items: center;
 background-color: white;
-margin:15px auto;
-padding: 15px auto;
+margin:8px auto;
+padding: 8px auto;
 border: double var(--border-color);
 
 & h1{
@@ -49,7 +49,7 @@ border-top: solid var(--border-color);
 }
 
 h1,h2,h3,p,blockquote,ul,li{
-    padding: 4em;
+    padding:2em;
 }
 
 
