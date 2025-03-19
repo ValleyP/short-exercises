@@ -23,6 +23,7 @@ body {
     font-size: 100%;
 width:90%;
 align-items: center;
+justify-content: center;
 border: double var(--border-color);
 & h1{
     font-size: 150%;
