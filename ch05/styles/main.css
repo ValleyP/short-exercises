@@ -27,7 +27,7 @@ body {
 width:90%;
 align-items: center;
 justify-content: center;
-border: center double var(--border-color);
+border: double var(--border-color);
 display: flex;
 
 & h1{
