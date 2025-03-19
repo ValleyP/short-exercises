@@ -4,15 +4,31 @@ padding: 0;
 
 }
 
+html{
+    background-color: aliceblue;
+    }
+    
+main{
+
+padding: 2em;
+
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 width:90%;
 align-items: center;
 border: double rebeccapurple;
-
+& h1{
+    font-size: 150%;
+    color: rebeccapurple;
+}
 }
 
-html{
-background-color: aliceblue;
+
+footer{
+
+border-top: rebeccapurple;
+
 }
