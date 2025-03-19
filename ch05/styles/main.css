@@ -28,7 +28,6 @@ width:90%;
 align-items: center;
 justify-content: center;
 border: double var(--border-color);
-display: flex;
 
 & h1{
     font-size: 150%;
