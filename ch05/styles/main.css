@@ -16,7 +16,7 @@ padding: 0;
     
 main{
 
-padding: 2em;
+padding: 4em;
 
 }
 
@@ -36,7 +36,7 @@ border: double var(--border-color);
 
 footer{
 
-border-top: var(--border-color);
+border-top: solid var(--border-color);
 & p{
     font-size: 90%;
     text-align: center;
@@ -45,7 +45,7 @@ border-top: var(--border-color);
 }
 
 h1,h2,h3,p,blockquote,ul,li{
-    padding: 2em;
+    padding: 4em;
 }
 
 
