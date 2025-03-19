@@ -9,7 +9,9 @@ padding: 0;
     --background-color: aliceblue;
     --border-color: rebeccapurple;
     --cite-color:rebeccapurple;
-    background-color:var(--background-color);
+    }
+    html{
+        background-color:var(--background-color);
     }
     
 main{
