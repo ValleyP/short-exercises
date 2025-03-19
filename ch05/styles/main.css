@@ -26,8 +26,9 @@ body {
     font-size: 100%;
 width:90%;
 align-items: center;
-justify-content: center;
-align-content: center;
+background-color: white;
+margin:15px auto;
+padding: 15px auto;
 border: double var(--border-color);
 
 & h1{
