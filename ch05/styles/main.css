@@ -5,7 +5,11 @@ padding: 0;
 }
 
 :root{
-    background-color: aliceblue;
+ 
+    --background-color: aliceblue;
+    --border-color: rebeccapurple;
+    --cite-color:rebeccapurple;
+    background-color:var(--background-color);
     }
     
 main{
@@ -19,7 +23,7 @@ body {
     font-size: 100%;
 width:90%;
 align-items: center;
-border: double rebeccapurple;
+border: double var(--border-color);
 & h1{
     font-size: 150%;
     color: rebeccapurple;
@@ -29,7 +33,7 @@ border: double rebeccapurple;
 
 footer{
 
-border-top: rebeccapurple;
+border-top: var(--border-color);
 & p{
     font-size: 90%;
     text-align: center;
@@ -51,7 +55,7 @@ h3{
 }
 
 cite{
-    color: rebeccapurple;
+    color: var(--cite-color);
     font-style: normal;
     font-weight: bold;
 }
