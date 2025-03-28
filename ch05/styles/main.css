@@ -28,7 +28,7 @@ width:90%;
 align-items: center;
 background-color: white;
 margin:2em auto;
-border: 2px double var(--border-color);
+border-style: double var(--border-color);
 
 & h1{
     font-size: 150%;
