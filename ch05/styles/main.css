@@ -63,8 +63,10 @@ h3{
 
 cite{
     color: var(--cite-color);
+    &p{
     font-style: normal;
     font-weight: bold;
+    }
 }
 img{
     float:left;
